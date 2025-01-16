@@ -1,0 +1,6 @@
+<h1>Записи</h1>
+<ul>
+    {% for record in records %}
+    <li>{{ record.title }} - {{ record.description }}</li>
+    {% endfor %}
+</ul>
